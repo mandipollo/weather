@@ -1,0 +1,28 @@
+{
+	"name": "weather",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack serve --open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mandipollo/weather.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mandipollo/weather/issues"
+	},
+	"homepage": "https://github.com/mandipollo/weather#readme",
+	"devDependencies": {
+		"css-loader": "^6.7.1",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.11.1"
+	}
+}
